@@ -281,7 +281,7 @@
                 { text: '月', value: 'M'},
                 { text: '季', value: 'Q'}
             ];
-        var models = this._oModels = {};
+        var models = this._oModels = this._oModels || {};
         var timeType = this._sTimeType = datasource.timeType 
             || (timeTypeList.length ? timeTypeList[0].value : void 0);
 
