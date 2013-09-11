@@ -89,7 +89,7 @@
      * @param {Object} options.range
      * @param {(string|number|Date)=} options.range.offsetBase 如果范围设定使用偏移方式的话（如'+1d'），此参数为偏移的基础，缺省则为new Date()
      *          可为时间字符串、时间对象、时间戳
-     * @param {(string|number|Date)=} options.range.begin或者start 当前时间戳（用于传来系统时间）
+     * @param {(string|number|Date)=} options.range.start 当前时间戳（用于传来系统时间）
      *          可为时间字符串、时间对象、时间戳、偏移表达式（型如'+1d', '-2M', '+4y'）
      * @param {(string|number|Date)=} options.range.end 当前时间戳（用于传来系统时间）
      *          可为时间字符串、时间对象、时间戳、偏移表达式（型如'+1d', '-2M', '+4y'）
